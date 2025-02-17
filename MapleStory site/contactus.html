@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="icon" href="/images/page_tab_icon.png">
+  <link href="/styles/styles.css" rel="stylesheet">
+
+  <script>
+    nagishli_config = {
+      // צבע התוסף - האפשרויות הן Blue (כחול), Red (אדום), Green (ירוק), Purple (סגול), Pink (ורוד), Yellow (צהוב), Gray (אפור), Orange (כתום), Brown (חום), Turquoise (טורקיז) ו-Black (שחור)
+      color: "orange",
+      // שפת התוסף, he - עברית, en - אנגלית
+      language: "en"
+    };
+  </script>
+  <script src="js/nagishli_beta.js" defer> </script>
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <div class="nav_links">
+        <ul class="main_links">
+          <li id="main_header">
+            <a href="index.html">
+              <img src="/images/MapleGuideBackgroundless.png" title="maple story" alt="maple story">
+            </a>
+          </li>
+          <li class="link"><a href="index.html">home</a></li>
+          <li class="link"><a href="classes.html" target="_blank">Classes</a></li>
+          <li class="link">
+            <a href="https://discord.gg/8Z6eGYFgPk" target="_blank">
+              <img src="/images/dis-logo.png" alt="discord" title="discord">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <div class="main_part">
+        <div class="item">
+          <form action="contactus.html" method="post">
+            <div class="input-group">
+              <label for="first_name">First Name:</label><br>
+              <input type="text" id="first_name" name="first_name" required maxlength="10"><br><br>
+            </div>
+
+            <div class="input-group">
+              <label for="last_name">Last Name:</label><br>
+              <input type="text" id="last_name" name="last_name" required maxlength="20"><br><br>
+            </div>
+
+            <div class="input-group">
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="email" required><br><br>
+            </div>
+
+            <div class="input-group">
+              <label for="phone">Phone Number:</label><br>
+              <input type="tel" id="phone" name="phone"><br><br>
+            </div>
+
+            <div class="input-group">
+              <label for="message">Message:</label><br>
+              <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+            </div>
+
+            <div class="input-group">
+              <input id="button" type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+
+        <div id="contactIMG">
+          <img src="/images/classes2.png" title="MapleStory Jobs" alt="MapleStory Jobs">
+        </div>
+
+      </div>
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a class="footer_link" href="/Aboutus.html">AboutUs</a> </li>
+          <li><a class="footer_link" href="accessibility_statement.html">Accessibility Statement</a></li>
+          <li><a class="footer_link" href="/feedback.html">FeedBack</a> </li>
+        </ul>
+        <span id="span">Mapleguide By Meitav Igor Bnd Ben All Rights Reserved © 2025.</span>
+      </nav>
+    </footer>
+  </div>
+</body>
+
+</html>
